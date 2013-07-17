@@ -11,16 +11,33 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		28FD15000DC6FC520079059D /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD14FF0DC6FC520079059D /* OpenGLES.framework */; };
 		28FD15080DC6FC5B0079059D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28FD15070DC6FC5B0079059D /* QuartzCore.framework */; };
+		AD90B5C316FDA8EC006B446C /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD90B5C116FDA8EC006B446C /* Game.cpp */; };
+		AD90B5C616FDAA3F006B446C /* User.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD90B5C416FDAA3F006B446C /* User.cpp */; };
+		AD90B5CA16FDB6D8006B446C /* Piece.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD90B5C816FDB6D8006B446C /* Piece.cpp */; };
+		AD90B5CD16FE3592006B446C /* PiecesManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD90B5CB16FE3592006B446C /* PiecesManager.cpp */; };
 		ADC48DA216FC5188007363B5 /* doxyfile in Resources */ = {isa = PBXBuildFile; fileRef = ADC48D5616FC5187007363B5 /* doxyfile */; };
 		ADC48DA316FC5188007363B5 /* SDL_config.h.cmake in Resources */ = {isa = PBXBuildFile; fileRef = ADC48D5F16FC5187007363B5 /* SDL_config.h.cmake */; };
 		ADC48DA416FC5188007363B5 /* SDL_config.h.in in Resources */ = {isa = PBXBuildFile; fileRef = ADC48D6016FC5187007363B5 /* SDL_config.h.in */; };
 		ADC48DA516FC5188007363B5 /* libSDL.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC48DA016FC5188007363B5 /* libSDL.a */; };
 		ADC48DA616FC5188007363B5 /* libSDLSimulator.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADC48DA116FC5188007363B5 /* libSDLSimulator.a */; };
+		ADF6AB5116FEBDF800A3D00E /* Board.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADF6AB4F16FEBDF800A3D00E /* Board.cpp */; };
+		ADFD89DF17929B5F001A16CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADFD89DD17929B5F001A16CA /* InfoPlist.strings */; };
+		ADFD89E517929B60001A16CA /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = ADFD89E317929B5F001A16CA /* Credits.rtf */; };
+		ADFD89EB17929B60001A16CA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADFD89E917929B60001A16CA /* MainMenu.xib */; };
+		ADFD89F217929CC7001A16CA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADFD89F117929CC7001A16CA /* Cocoa.framework */; };
+		ADFD89F31792A0DD001A16CA /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADFD89EF17929CBC001A16CA /* SDL.framework */; };
+		ADFD89F61792A20D001A16CA /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFD89F41792A20D001A16CA /* SDLMain.m */; };
+		ADFD89F81792A260001A16CA /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD90B5C116FDA8EC006B446C /* Game.cpp */; };
+		ADFD89F91792A260001A16CA /* User.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD90B5C416FDAA3F006B446C /* User.cpp */; };
+		ADFD89FA1792A260001A16CA /* Piece.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD90B5C816FDB6D8006B446C /* Piece.cpp */; };
+		ADFD89FB1792A260001A16CA /* PiecesManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD90B5CB16FE3592006B446C /* PiecesManager.cpp */; };
+		ADFD89FC1792A260001A16CA /* Board.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADF6AB4F16FEBDF800A3D00E /* Board.cpp */; };
+		ADFD89FD1792A260001A16CA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FD77A09C0E26BDE500F39101 /* main.cpp */; };
 		FD779EDE0E26BA1200F39101 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD779EDD0E26BA1200F39101 /* CoreAudio.framework */; };
 		FD77A07D0E26BD8C00F39101 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FD77A07C0E26BD8C00F39101 /* Icon.png */; };
 		FD77A07F0E26BDA900F39101 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FD77A07E0E26BDA900F39101 /* Default.png */; };
 		FD77A0850E26BDB800F39101 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD77A0840E26BDB800F39101 /* AudioToolbox.framework */; };
-		FD77A09D0E26BDE500F39101 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = FD77A09C0E26BDE500F39101 /* main.c */; };
+		FD77A09D0E26BDE500F39101 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = FD77A09C0E26BDE500F39101 /* main.cpp */; };
 		FDB8BFC60E5A0F6A00980157 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDB8BFC50E5A0F6A00980157 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +48,15 @@
 		28FD14FF0DC6FC520079059D /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		28FD15070DC6FC5B0079059D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD90B5C116FDA8EC006B446C /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		AD90B5C216FDA8EC006B446C /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		AD90B5C416FDAA3F006B446C /* User.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = User.cpp; sourceTree = "<group>"; };
+		AD90B5C516FDAA3F006B446C /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		AD90B5C716FDAB2C006B446C /* Commons.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Commons.h; sourceTree = "<group>"; };
+		AD90B5C816FDB6D8006B446C /* Piece.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Piece.cpp; sourceTree = "<group>"; };
+		AD90B5C916FDB6D8006B446C /* Piece.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Piece.h; sourceTree = "<group>"; };
+		AD90B5CB16FE3592006B446C /* PiecesManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PiecesManager.cpp; sourceTree = "<group>"; };
+		AD90B5CC16FE3592006B446C /* PiecesManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PiecesManager.h; sourceTree = "<group>"; };
 		ADC48D5416FC5187007363B5 /* begin_code.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = begin_code.h; sourceTree = "<group>"; };
 		ADC48D5516FC5187007363B5 /* close_code.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = close_code.h; sourceTree = "<group>"; };
 		ADC48D5616FC5187007363B5 /* doxyfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = doxyfile; sourceTree = "<group>"; };
@@ -108,11 +134,30 @@
 		ADC48D9E16FC5188007363B5 /* SDL_video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDL_video.h; sourceTree = "<group>"; };
 		ADC48DA016FC5188007363B5 /* libSDL.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSDL.a; sourceTree = "<group>"; };
 		ADC48DA116FC5188007363B5 /* libSDLSimulator.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSDLSimulator.a; sourceTree = "<group>"; };
+		ADF6AB4F16FEBDF800A3D00E /* Board.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Board.cpp; sourceTree = "<group>"; };
+		ADF6AB5016FEBDF800A3D00E /* Board.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Board.h; sourceTree = "<group>"; };
+		ADFD89D317929B5F001A16CA /* puyomac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = puyomac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADFD89D417929B5F001A16CA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		ADFD89D717929B5F001A16CA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		ADFD89D817929B5F001A16CA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		ADFD89D917929B5F001A16CA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ADFD89DC17929B5F001A16CA /* puyomac-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "puyomac-Info.plist"; sourceTree = "<group>"; };
+		ADFD89DE17929B5F001A16CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ADFD89E017929B5F001A16CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADFD89E217929B5F001A16CA /* puyomac-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "puyomac-Prefix.pch"; sourceTree = "<group>"; };
+		ADFD89E417929B5F001A16CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		ADFD89E617929B60001A16CA /* puyoAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = puyoAppDelegate.h; sourceTree = "<group>"; };
+		ADFD89E717929B60001A16CA /* puyoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = puyoAppDelegate.m; sourceTree = "<group>"; };
+		ADFD89EA17929B60001A16CA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		ADFD89EF17929CBC001A16CA /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = /Library/Frameworks/SDL.framework; sourceTree = "<absolute>"; };
+		ADFD89F117929CC7001A16CA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		ADFD89F41792A20D001A16CA /* SDLMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDLMain.m; sourceTree = "<group>"; };
+		ADFD89F71792A228001A16CA /* SDLMain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDLMain.h; sourceTree = "<group>"; };
 		FD779EDD0E26BA1200F39101 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		FD77A07C0E26BD8C00F39101 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		FD77A07E0E26BDA900F39101 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		FD77A0840E26BDB800F39101 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		FD77A09C0E26BDE500F39101 /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		FD77A09C0E26BDE500F39101 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		FDB8BFC50E5A0F6A00980157 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -133,6 +178,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ADFD89D017929B5F001A16CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADFD89F217929CC7001A16CA /* Cocoa.framework in Frameworks */,
+				ADFD89F31792A0DD001A16CA /* SDL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -149,6 +203,7 @@
 			isa = PBXGroup;
 			children = (
 				1D6058910D05DD3D006BFB54 /* puyopuyo.app */,
+				ADFD89D317929B5F001A16CA /* puyomac.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -159,6 +214,7 @@
 				29B97315FDCFA39411CA2CEA /* Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				0097E29812F70C4D00724AC5 /* SDL */,
+				ADFD89DA17929B5F001A16CA /* puyomac */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 			);
@@ -168,7 +224,10 @@
 		29B97315FDCFA39411CA2CEA /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				FD77A09C0E26BDE500F39101 /* main.c */,
+				AD90B5C016FDA8DA006B446C /* Classes */,
+				FD77A09C0E26BDE500F39101 /* main.cpp */,
+				ADFD89F41792A20D001A16CA /* SDLMain.m */,
+				ADFD89F71792A228001A16CA /* SDLMain.h */,
 			);
 			name = Sources;
 			sourceTree = "<group>";
@@ -186,6 +245,8 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ADFD89F117929CC7001A16CA /* Cocoa.framework */,
+				ADFD89EF17929CBC001A16CA /* SDL.framework */,
 				FDB8BFC50E5A0F6A00980157 /* CoreGraphics.framework */,
 				FD77A0840E26BDB800F39101 /* AudioToolbox.framework */,
 				FD779EDD0E26BA1200F39101 /* CoreAudio.framework */,
@@ -193,8 +254,28 @@
 				28FD14FF0DC6FC520079059D /* OpenGLES.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				ADFD89D417929B5F001A16CA /* Cocoa.framework */,
+				ADFD89D617929B5F001A16CA /* Other Frameworks */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD90B5C016FDA8DA006B446C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				AD90B5C116FDA8EC006B446C /* Game.cpp */,
+				AD90B5C216FDA8EC006B446C /* Game.h */,
+				AD90B5C416FDAA3F006B446C /* User.cpp */,
+				AD90B5C516FDAA3F006B446C /* User.h */,
+				AD90B5C716FDAB2C006B446C /* Commons.h */,
+				AD90B5C816FDB6D8006B446C /* Piece.cpp */,
+				AD90B5C916FDB6D8006B446C /* Piece.h */,
+				AD90B5CB16FE3592006B446C /* PiecesManager.cpp */,
+				AD90B5CC16FE3592006B446C /* PiecesManager.h */,
+				ADF6AB4F16FEBDF800A3D00E /* Board.cpp */,
+				ADF6AB5016FEBDF800A3D00E /* Board.h */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 		ADC48D5316FC5187007363B5 /* include */ = {
@@ -288,6 +369,39 @@
 			path = lib;
 			sourceTree = "<group>";
 		};
+		ADFD89D617929B5F001A16CA /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADFD89D717929B5F001A16CA /* AppKit.framework */,
+				ADFD89D817929B5F001A16CA /* CoreData.framework */,
+				ADFD89D917929B5F001A16CA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		ADFD89DA17929B5F001A16CA /* puyomac */ = {
+			isa = PBXGroup;
+			children = (
+				ADFD89E617929B60001A16CA /* puyoAppDelegate.h */,
+				ADFD89E717929B60001A16CA /* puyoAppDelegate.m */,
+				ADFD89E917929B60001A16CA /* MainMenu.xib */,
+				ADFD89DB17929B5F001A16CA /* Supporting Files */,
+			);
+			path = puyomac;
+			sourceTree = "<group>";
+		};
+		ADFD89DB17929B5F001A16CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADFD89DC17929B5F001A16CA /* puyomac-Info.plist */,
+				ADFD89DD17929B5F001A16CA /* InfoPlist.strings */,
+				ADFD89E017929B5F001A16CA /* main.m */,
+				ADFD89E217929B5F001A16CA /* puyomac-Prefix.pch */,
+				ADFD89E317929B5F001A16CA /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -308,6 +422,23 @@
 			productReference = 1D6058910D05DD3D006BFB54 /* puyopuyo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		ADFD89D217929B5F001A16CA /* puyomac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADFD89EE17929B60001A16CA /* Build configuration list for PBXNativeTarget "puyomac" */;
+			buildPhases = (
+				ADFD89CF17929B5F001A16CA /* Sources */,
+				ADFD89D017929B5F001A16CA /* Frameworks */,
+				ADFD89D117929B5F001A16CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = puyomac;
+			productName = puyomac;
+			productReference = ADFD89D317929B5F001A16CA /* puyomac.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -322,12 +453,14 @@
 				Japanese,
 				French,
 				German,
+				en,
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				1D6058900D05DD3D006BFB54 /* puyopuyo */,
+				ADFD89D217929B5F001A16CA /* puyomac */,
 			);
 		};
 /* End PBXProject section */
@@ -345,6 +478,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ADFD89D117929B5F001A16CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADFD89DF17929B5F001A16CA /* InfoPlist.strings in Resources */,
+				ADFD89E517929B60001A16CA /* Credits.rtf in Resources */,
+				ADFD89EB17929B60001A16CA /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -352,28 +495,77 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD77A09D0E26BDE500F39101 /* main.c in Sources */,
+				FD77A09D0E26BDE500F39101 /* main.cpp in Sources */,
+				AD90B5C316FDA8EC006B446C /* Game.cpp in Sources */,
+				AD90B5C616FDAA3F006B446C /* User.cpp in Sources */,
+				AD90B5CA16FDB6D8006B446C /* Piece.cpp in Sources */,
+				AD90B5CD16FE3592006B446C /* PiecesManager.cpp in Sources */,
+				ADF6AB5116FEBDF800A3D00E /* Board.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADFD89CF17929B5F001A16CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADFD89F81792A260001A16CA /* Game.cpp in Sources */,
+				ADFD89F91792A260001A16CA /* User.cpp in Sources */,
+				ADFD89FA1792A260001A16CA /* Piece.cpp in Sources */,
+				ADFD89FB1792A260001A16CA /* PiecesManager.cpp in Sources */,
+				ADFD89FC1792A260001A16CA /* Board.cpp in Sources */,
+				ADFD89FD1792A260001A16CA /* main.cpp in Sources */,
+				ADFD89F61792A20D001A16CA /* SDLMain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ADFD89DD17929B5F001A16CA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADFD89DE17929B5F001A16CA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ADFD89E317929B5F001A16CA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADFD89E417929B5F001A16CA /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		ADFD89E917929B60001A16CA /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADFD89EA17929B60001A16CA /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1D6058940D05DD3E006BFB54 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jesus Anaya Orozco (YZRMB57XSB)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/SDL/lib\"",
 				);
 				PRODUCT_NAME = puyopuyo;
+				PROVISIONING_PROFILE = "9D288E07-B37C-4137-A5C8-B79C5FC38733";
 			};
 			name = Debug;
 		};
@@ -381,15 +573,100 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jesus Anaya Orozco (YZRMB57XSB)";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)/SDL/lib\"",
 				);
 				PRODUCT_NAME = puyopuyo;
+				PROVISIONING_PROFILE = "9D288E07-B37C-4137-A5C8-B79C5FC38733";
+			};
+			name = Release;
+		};
+		ADFD89EC17929B60001A16CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=macosx10.7]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "puyomac/puyomac-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				HEADER_SEARCH_PATHS = /Library/Frameworks/SDL.framework/Headers;
+				INFOPLIST_FILE = "puyomac/puyomac-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PREBINDING = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.7;
+				STRIPFLAGS = "sdl-config --cflags --libs";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ADFD89ED17929B60001A16CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=macosx10.7]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "puyomac/puyomac-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				HEADER_SEARCH_PATHS = /Library/Frameworks/SDL.framework/Headers;
+				INFOPLIST_FILE = "puyomac/puyomac-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				PREBINDING = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.7;
+				STRIPFLAGS = "sdl-config --cflags --libs";
+				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
@@ -433,6 +710,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		ADFD89EE17929B60001A16CA /* Build configuration list for PBXNativeTarget "puyomac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADFD89EC17929B60001A16CA /* Debug */,
+				ADFD89ED17929B60001A16CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "puyopuyo" */ = {
 			isa = XCConfigurationList;

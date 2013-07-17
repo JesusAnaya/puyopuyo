@@ -3,27 +3,29 @@
 <plist version="1.0">
 <dict>
 	<key>FoundWorkingCopyPaths</key>
-	<array/>
+	<array>
+		<string>/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo</string>
+	</array>
 	<key>LastWorkingCopyScanDate</key>
-	<date>2013-03-22T08:44:57Z</date>
+	<date>2013-07-17T06:11:25Z</date>
 	<key>MissingFilePaths</key>
 	<array>
-		<string>/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL_keysym.h</string>
+		<string>/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL_keyboard.h</string>
 		<string>/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL_config_android.h</string>
 		<string>/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL_types.h</string>
 		<string>/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL_touch.h</string>
 		<string>/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL_haptic.h</string>
 		<string>/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL_rwops.h</string>
+		<string>/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL_cpuinfo.h</string>
 		<string>/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL_config_wiz.h</string>
 		<string>/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL_main.h</string>
-		<string>/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/close_code.h</string>
 		<string>/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL_config.h.in</string>
-		<string>/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL_syswm.h</string>
+		<string>/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/close_code.h</string>
 		<string>/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL_config_iphoneos.h</string>
 		<string>/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL_stdinc.h</string>
 		<string>/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL_audio.h</string>
-		<string>/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL_cpuinfo.h</string>
 		<string>/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL_error.h</string>
+		<string>/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL_syswm.h</string>
 		<string>/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL_platform.h</string>
 		<string>/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL_quit.h</string>
 		<string>/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/___PROJECTNAME___.app</string>
@@ -39,11 +41,11 @@
 		<string>/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL_config_pandora.h</string>
 		<string>/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL_revision.h</string>
 		<string>/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL_scancode.h</string>
-		<string>/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL_timer.h</string>
 		<string>/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/doxyfile</string>
+		<string>/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL_timer.h</string>
 		<string>/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL_opengles.h</string>
-		<string>/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL_config.h.default</string>
 		<string>/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL_loadso.h</string>
+		<string>/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL_config.h.default</string>
 		<string>/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL_pixels.h</string>
 		<string>/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL_mutex.h</string>
 		<string>/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL_config_minimal.h</string>
@@ -51,6 +53,7 @@
 		<string>/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL_name.h</string>
 		<string>/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL.h</string>
 		<string>/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL_shape.h</string>
+		<string>/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyomac.app</string>
 		<string>/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL_atomic.h</string>
 		<string>/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL_config_macosx.h</string>
 		<string>/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL_config_nintendods.h</string>
@@ -67,7 +70,7 @@
 		<string>/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL_mouse.h</string>
 		<string>/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL_version.h</string>
 		<string>/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL_blendmode.h</string>
-		<string>/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL_keyboard.h</string>
+		<string>/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL_keysym.h</string>
 	</array>
 	<key>Version</key>
 	<integer>4</integer>

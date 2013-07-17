@@ -1,0 +1,211 @@
+Tpuyomac
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug/puyomac.app/Contents/Info.plist puyomac/puyomac-Info.plist
+cProcessPCH /var/folders/_c/vfr7zx0n3ts790bhz2hggy740000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/puyomac-Prefix-fkytzahwaalasdaufueaflgowozp/puyomac-Prefix.pch.pth puyomac/puyomac-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/puyopuyo.build/Debug/puyomac.build/Objects-normal/x86_64/main.o /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/puyomac/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/puyopuyo.build/Debug/puyomac.build/Objects-normal/x86_64/puyoAppDelegate.o /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/puyomac/puyoAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug/puyomac.app/Contents/MacOS/puyomac normal x86_64
+
+N/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Cocoa.framework/Cocoa
+c00000000000000000000000000000000
+t2
+s0
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c000000005199E11E00000000000000AA
+t1369039134
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework/Cocoa
+c00000000505F328F00000000000025C8
+t1348416143
+s9672
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c00000000505F328F00000000000001E5
+t1348416143
+s485
+
+N/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/../../../../../Library/Frameworks/SDL.framework/SDL
+c00000000518363C600000000000B66C8
+t1367565254
+s747208
+
+N/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug/puyomac.app
+t2
+s0
+
+N/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug/puyomac.app/Contents/Info.plist
+t2
+s0
+
+N/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug/puyomac.app/Contents/MacOS/puyomac
+t2
+s0
+
+N/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug/puyomac.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug/puyomac.app/Contents/Resources/en.lproj/Credits.rtf
+t2
+s0
+
+N/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug/puyomac.app/Contents/Resources/en.lproj/InfoPlist.strings
+t2
+s0
+
+N/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug/puyomac.app/Contents/Resources/en.lproj/MainMenu.nib
+t2
+s0
+
+N/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug/puyomac.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug/puyomac.build/Objects-normal/x86_64/puyoAppDelegate.o
+t2
+s0
+
+N/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug/puyomac.build/Objects-normal/x86_64/puyomac.LinkFileList
+c0000000051E2673000000000000000F1
+t1373792048
+s241
+
+N/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/puyomac/en.lproj/Credits.rtf
+c0000000051E263DF00000000000001B4
+t1373791199
+s436
+
+N/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/puyomac/en.lproj/InfoPlist.strings
+c0000000051E263DF000000000000002D
+t1373791199
+s45
+
+N/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/puyomac/en.lproj/MainMenu.xib
+c0000000051E263E00000000000033DFD
+t1373791200
+s212477
+
+N/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/puyomac/main.m
+c0000000051E263DF00000000000000C9
+t1373791199
+s201
+
+N/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/puyomac/puyoAppDelegate.m
+c0000000051E263E0000000000000014C
+t1373791200
+s332
+
+N/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/puyomac/puyomac-Prefix.pch
+c0000000051E263DF0000000000000091
+t1373791199
+s145
+i<Cocoa/Cocoa.h>
+
+N/var/folders/_c/vfr7zx0n3ts790bhz2hggy740000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/puyomac-Prefix-biphigstggwsgqarwrpojatcdmws/puyomac-Prefix.pch.pth
+t2
+s0
+
+N/var/folders/_c/vfr7zx0n3ts790bhz2hggy740000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/puyomac-Prefix-fkytzahwaalasdaufueaflgowozp/puyomac-Prefix.pch.pth
+t2
+s0
+
+Npuyomac/puyomac-Info.plist
+c0000000051E263DF0000000000000437
+t1373791199
+s1079
+
+CBuild AST from /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/puyomac/main.m
+r0
+
+CBuild AST from /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/puyomac/puyoAppDelegate.m
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies60ead3af9e92b741^5a4b01b09e92b741^---0#1#0#--18"Check dependencies36"BD9DCF45-4376-40BE-BAC5-C43BB3383B8D-
+
+CCompileC build/puyopuyo.build/Debug/puyomac.build/Objects-normal/x86_64/main.o /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/puyomac/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s395484853.565508
+e395484854.226004
+r1
+xCompileC
+xbuild/puyopuyo.build/Debug/puyomac.build/Objects-normal/x86_64/main.o
+x/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/puyomac/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Compile /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/puyomac/main.mcafb90b59e92b741^06da39b69e92b741^---0#0#0#-19%DVTDocumentLocation2@75"file://localhost/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/puyomac/main.m0000000000000000^2841"CompileC build/puyopuyo.build/Debug/puyomac.build/Objects-normal/x86_64/main.o puyomac/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug/puyomac.build/puyomac-generated-files.hmap -I/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug/puyomac.build/puyomac-own-target-headers.hmap -I/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug/puyomac.build/puyomac-all-target-headers.hmap -iquote /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug/puyomac.build/puyomac-project-headers.hmap -I/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug/include -I/Library/Frameworks/SDL.framework/Headers -I/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug/puyomac.build/DerivedSources/x86_64 -I/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug/puyomac.build/DerivedSources -F/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -include /var/folders/_c/vfr7zx0n3ts790bhz2hggy740000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/puyomac-Prefix-fkytzahwaalasdaufueaflgowozp/puyomac-Prefix.pch -MMD -MT dependencies -MF /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug/puyomac.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug/puyomac.build/Objects-normal/x86_64/main.dia -c /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/puyomac/main.m -o /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug/puyomac.build/Objects-normal/x86_64/main.o36"5298726B-1B23-4DC8-9D9C-A3B0EAB3D3BE-
+
+CCompileC build/puyopuyo.build/Debug/puyomac.build/Objects-normal/x86_64/puyoAppDelegate.o /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/puyomac/puyoAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s395484853.566631
+e395484854.243833
+r1
+xCompileC
+xbuild/puyopuyo.build/Debug/puyomac.build/Objects-normal/x86_64/puyoAppDelegate.o
+x/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/puyomac/puyoAppDelegate.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection78"Compile /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/puyomac/puyoAppDelegate.me63e91b59e92b741^5aba3eb69e92b741^---0#0#0#-19%DVTDocumentLocation2@86"file://localhost/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/puyomac/puyoAppDelegate.m0000000000000000^2907"CompileC build/puyopuyo.build/Debug/puyomac.build/Objects-normal/x86_64/puyoAppDelegate.o puyomac/puyoAppDelegate.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug/puyomac.build/puyomac-generated-files.hmap -I/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug/puyomac.build/puyomac-own-target-headers.hmap -I/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug/puyomac.build/puyomac-all-target-headers.hmap -iquote /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug/puyomac.build/puyomac-project-headers.hmap -I/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug/include -I/Library/Frameworks/SDL.framework/Headers -I/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug/puyomac.build/DerivedSources/x86_64 -I/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug/puyomac.build/DerivedSources -F/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -include /var/folders/_c/vfr7zx0n3ts790bhz2hggy740000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/puyomac-Prefix-fkytzahwaalasdaufueaflgowozp/puyomac-Prefix.pch -MMD -MT dependencies -MF /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug/puyomac.build/Objects-normal/x86_64/puyoAppDelegate.d --serialize-diagnostics /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug/puyomac.build/Objects-normal/x86_64/puyoAppDelegate.dia -c /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/puyomac/puyoAppDelegate.m -o /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug/puyomac.build/Objects-normal/x86_64/puyoAppDelegate.o36"1E843DCF-A2BB-48FE-B91A-FB3457465853-
+
+CCompileXIB /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/puyomac/en.lproj/MainMenu.xib
+r0
+
+CCopyStringsFile /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug/puyomac.app/Contents/Resources/en.lproj/InfoPlist.strings puyomac/en.lproj/InfoPlist.strings
+r0
+
+CCpResource puyomac/en.lproj/Credits.rtf build/Debug/puyomac.app/Contents/Resources/en.lproj/Credits.rtf
+r0
+
+CLd /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug/puyomac.app/Contents/MacOS/puyomac normal x86_64
+s395484854.265042
+e395484854.470485
+r0
+xLd
+x/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug/puyomac.app/Contents/MacOS/puyomac
+xnormal
+xx86_64
+old: framework not found SDL
+oclang: error: linker command failed with exit code 1 (use -v to see invocation)
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection96"Link /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug/puyomac.app/Contents/MacOS/puyomac49f343b69e92b741^806678b69e92b741^-108"ld: framework not found SDLclang: error: linker command failed with exit code 1 (use -v to see invocation)2(21%IDEActivityLogMessage2@23"Framework not found SDL-395484854#0#28#-0#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#31"Apple Mach-O Linker (ld) Notice--2@65"Linker command failed with exit code 1 (use -v to see invocation)-395484854#28#80#-2#-3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#30"Apple Mach-O Linker (ld) Error--0#0#0#--870"Ld build/Debug/puyomac.app/Contents/MacOS/puyomac normal x86_64    cd /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo    setenv MACOSX_DEPLOYMENT_TARGET 10.8    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug -F/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks -filelist /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug/puyomac.build/Objects-normal/x86_64/puyomac.LinkFileList -mmacosx-version-min=10.8 -fobjc-link-runtime -framework Cocoa -framework SDL -o /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug/puyomac.app/Contents/MacOS/puyomac36"70F1CE23-AFE3-40AB-AC36-7910DA379BE8-
+
+CProcessInfoPlistFile /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug/puyomac.app/Contents/Info.plist puyomac/puyomac-Info.plist
+s395484848.008506
+e395484848.106013
+r1
+xProcessInfoPlistFile
+x/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug/puyomac.app/Contents/Info.plist
+xpuyomac/puyomac-Info.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection34"Process puyomac/puyomac-Info.plist2c4502b09e92b741^16c232b09e92b741^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/puyomac/puyomac-Info.plist0000000000000000^428"ProcessInfoPlistFile build/Debug/puyomac.app/Contents/Info.plist puyomac/puyomac-Info.plist    cd /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo    builtin-infoPlistUtility puyomac/puyomac-Info.plist -genpkginfo /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug/puyomac.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug/puyomac.app/Contents/Info.plist36"0A0C0483-6209-42D0-8A8E-380AA07AB901-
+
+CProcessPCH /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/DerivedData/puyopuyo/Index/PrecompiledHeaders/puyomac-Prefix-covdafnjzkxbzfgpzdhbewyfiytg_ast/puyomac-Prefix.pch.pth puyomac/puyomac-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/DerivedData/puyopuyo/Index/PrecompiledHeaders/puyomac-Prefix-gvvmvdhddpcgswcfddumspaxefjw_ast/puyomac-Prefix.pch.pth puyomac/puyomac-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH /var/folders/_c/vfr7zx0n3ts790bhz2hggy740000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/puyomac-Prefix-biphigstggwsgqarwrpojatcdmws/puyomac-Prefix.pch.pth puyomac/puyomac-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+r0
+
+CProcessPCH /var/folders/_c/vfr7zx0n3ts790bhz2hggy740000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/puyomac-Prefix-fkytzahwaalasdaufueaflgowozp/puyomac-Prefix.pch.pth puyomac/puyomac-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler
+s395484848.127094
+e395484853.558368
+r1
+xProcessPCH
+x/var/folders/_c/vfr7zx0n3ts790bhz2hggy740000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/puyomac-Prefix-fkytzahwaalasdaufueaflgowozp/puyomac-Prefix.pch.pth
+xpuyomac/puyomac-Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Precompile puyomac/puyomac-Prefix.pch1cb320b09e92b741^0ef68eb59e92b741^---0#0#0#-19%DVTDocumentLocation2@87"file://localhost/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/puyomac/puyomac-Prefix.pch0000000000000000^2933"ProcessPCH /var/folders/_c/vfr7zx0n3ts790bhz2hggy740000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/puyomac-Prefix-fkytzahwaalasdaufueaflgowozp/puyomac-Prefix.pch.pth puyomac/puyomac-Prefix.pch normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch x86_64 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -mmacosx-version-min=10.8 -g -Wno-sign-conversion -iquote /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug/puyomac.build/puyomac-generated-files.hmap -I/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug/puyomac.build/puyomac-own-target-headers.hmap -I/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug/puyomac.build/puyomac-all-target-headers.hmap -iquote /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug/puyomac.build/puyomac-project-headers.hmap -I/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug/include -I/Library/Frameworks/SDL.framework/Headers -I/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug/puyomac.build/DerivedSources/x86_64 -I/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug/puyomac.build/DerivedSources -F/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug -F/Applications/Xcode.app/Contents/Developer/Library/Frameworks --serialize-diagnostics /var/folders/_c/vfr7zx0n3ts790bhz2hggy740000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/puyomac-Prefix-fkytzahwaalasdaufueaflgowozp/puyomac-Prefix.pch.dia -c /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/puyomac/puyomac-Prefix.pch -o /var/folders/_c/vfr7zx0n3ts790bhz2hggy740000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/puyomac-Prefix-fkytzahwaalasdaufueaflgowozp/puyomac-Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/_c/vfr7zx0n3ts790bhz2hggy740000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/puyomac-Prefix-fkytzahwaalasdaufueaflgowozp/puyomac-Prefix.pch.d36"B659B02A-FE5D-47DE-AB8C-12F11D160154-
+
+CTouch /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug/puyomac.app
+r0
+

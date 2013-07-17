@@ -1,0 +1,447 @@
+Tpuyopuyo
+v5
+r1
+cCheck dependencies
+cCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist build/Debug-iphoneos/puyopuyo.app/ResourceRules.plist
+cProcessInfoPlistFile /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app/Info.plist Info.plist
+cCopyPNGFile /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app/Icon.png Icon.png
+cCopyPNGFile /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app/Default.png Default.png
+cCpResource SDL/include/doxyfile build/Debug-iphoneos/puyopuyo.app/doxyfile
+cCpResource SDL/include/SDL_config.h.cmake build/Debug-iphoneos/puyopuyo.app/SDL_config.h.cmake
+cCpResource SDL/include/SDL_config.h.in build/Debug-iphoneos/puyopuyo.app/SDL_config.h.in
+cCompileC build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/Objects-normal/armv7/main.o /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/main.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/Objects-normal/armv7/Game.o /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/Game.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/Objects-normal/armv7/User.o /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/User.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/Objects-normal/armv7/Piece.o /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/Piece.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/Objects-normal/armv7/PiecesManager.o /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/PiecesManager.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app/puyopuyo normal armv7
+cGenerateDSYMFile /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app.dSYM /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app/puyopuyo
+cProcessProductPackaging "/Users/anaya/Library/MobileDevice/Provisioning Profiles/9D288E07-B37C-4137-A5C8-B79C5FC38733.mobileprovision" /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app/embedded.mobileprovision
+cProcessProductPackaging "/Users/anaya/Library/MobileDevice/Provisioning Profiles/9D288E07-B37C-4137-A5C8-B79C5FC38733.mobileprovision" /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app/embedded.mobileprovision
+cTouch /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app
+cProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/puyopuyo.xcent
+cCodeSign /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk
+c00000000514698140000000000000110
+t1363580948
+s272
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist
+c000000005108618300000000000001A7
+t1359503747
+s423
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist
+c000000005108618300000000000001E5
+t1359503747
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c000000005108618700000000006B1F40
+t1359503751
+s7020352
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c000000005108618700000000000FE270
+t1359503751
+s1041008
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c00000000510861880000000000322700
+t1359503752
+s3286784
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000005108618A000000000062AD10
+t1359503754
+s6466832
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/OpenGLES.framework/OpenGLES
+c000000005108618B0000000000024190
+t1359503755
+s147856
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000005108618C00000000003596B0
+t1359503756
+s3511984
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000005108618F00000000011BCDF0
+t1359503759
+s18599408
+
+N/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/Commons.h
+c00000000514E7809000000000000021F
+t1364097033
+s543
+
+N/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/Default.png
+c000000004F08019A00000000000047CF
+t1325924762
+s18383
+
+N/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/Game.cpp
+c00000000514E7ABB0000000000000D10
+t1364097723
+s3344
+
+N/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/Game.h
+c00000000514E7AB40000000000000393
+t1364097716
+s915
+
+N/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/Icon.png
+c000000004F08019A0000000000000969
+t1325924762
+s2409
+
+N/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/Piece.cpp
+c00000000514E715F0000000000000602
+t1364095327
+s1538
+
+N/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/PiecesManager.cpp
+c00000000514E725B000000000000070B
+t1364095579
+s1803
+
+N/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL/include/SDL_config.h.cmake
+c000000005121C7E600000000000039B2
+t1361168358
+s14770
+
+N/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL/include/SDL_config.h.in
+c000000005121C7E60000000000001F24
+t1361168358
+s7972
+
+N/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL/include/doxyfile
+c000000004F2C9856000000000000FFAD
+t1328322646
+s65453
+
+N/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL/lib/libSDL.a
+c00000000514BF17E00000000005E6960
+t1363931518
+s6187360
+
+N/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL/lib/libSDLSimulator.a
+c00000000514BFE2D00000000003415C0
+t1363934765
+s3413440
+
+N/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/User.cpp
+c00000000514D73DD00000000000000CA
+t1364030429
+s202
+
+N/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app
+t2
+s0
+
+N/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app.dSYM
+t2
+s0
+
+N/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app/Default.png
+t2
+s0
+
+N/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app/Icon.png
+t2
+s0
+
+N/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app/Info.plist
+t2
+s0
+
+N/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app/PkgInfo
+t2
+s0
+
+N/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app/ResourceRules.plist
+t2
+s0
+
+N/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app/SDL_config.h.cmake
+t2
+s0
+
+N/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app/SDL_config.h.in
+t2
+s0
+
+N/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app/doxyfile
+t2
+s0
+
+N/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app/embedded.mobileprovision
+t2
+s0
+
+N/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app/puyopuyo
+t2
+s0
+
+N/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/Objects-normal/armv7/Game.o
+t2
+s0
+
+N/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/Objects-normal/armv7/Piece.o
+t2
+s0
+
+N/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/Objects-normal/armv7/PiecesManager.o
+t2
+s0
+
+N/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/Objects-normal/armv7/User.o
+t2
+s0
+
+N/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/Objects-normal/armv7/main.o
+t2
+s0
+
+N/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/Objects-normal/armv7/puyopuyo.LinkFileList
+c00000000514E7C040000000000000276
+t1364098052
+s630
+
+N/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/puyopuyo.xcent
+t2
+s0
+
+N/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/main.cpp
+c00000000514E16CC000000000000019A
+t1364072140
+s410
+i"Commons.h"
+i"Game.h"
+
+N/Users/anaya/Library/MobileDevice/Provisioning Profiles/9D288E07-B37C-4137-A5C8-B79C5FC38733.mobileprovision
+c00000000507BC45F0000000000001D80
+t1350288479
+s7552
+
+NInfo.plist
+c00000000514E7AEC0000000000000421
+t1364097772
+s1057
+
+CBuild AST from /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/Game.cpp
+r0
+
+CBuild AST from /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/Piece.cpp
+r0
+
+CBuild AST from /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/PiecesManager.cpp
+r0
+
+CBuild AST from /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/User.cpp
+r0
+
+CBuild AST from /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/main.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies80647e84b3feb641^5b249184b3feb641^---0#1#0#--18"Check dependencies36"19A60CB4-4741-4701-A626-CEB19A99278A-
+
+CCodeSign /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app
+s385790857.199612
+e385790857.924342
+r1
+xCodeSign
+x/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"CodeSign build/Debug-iphoneos/puyopuyo.app11373389b3feb641^7ba1ec89b3feb641^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app/0000000000000000^818"CodeSign build/Debug-iphoneos/puyopuyo.app    cd /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo    setenv CODESIGN_ALLOCATE /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/codesign --force --sign b710a61a78498869d9a58431257dc01b87d416fa --resource-rules=/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app/ResourceRules.plist --entitlements /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/puyopuyo.xcent /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app36"F9002FD3-20B7-449D-BBC9-1598A48A8F80-
+
+CCompileC build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/Objects-normal/armv7/Game.o /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/Game.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s385790853.019234
+e385790854.430868
+r1
+xCompileC
+xbuild/puyopuyo.build/Debug-iphoneos/puyopuyo.build/Objects-normal/armv7/Game.o
+x/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/Game.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compile /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/Game.cpp05150585b3feb641^d74c6e86b3feb641^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/Game.cpp0000000000000000^3068"CompileC build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/Objects-normal/armv7/Game.o Game.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/puyopuyo-generated-files.hmap -I/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/puyopuyo-own-target-headers.hmap -I/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/puyopuyo-all-target-headers.hmap -iquote /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/puyopuyo-project-headers.hmap -I/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/DerivedSources/armv7 -I/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/DerivedSources -F/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos -MMD -MT dependencies -MF /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/Objects-normal/armv7/Game.d --serialize-diagnostics /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/Objects-normal/armv7/Game.dia -c /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/Game.cpp -o /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/Objects-normal/armv7/Game.o36"0155B1C5-1D1F-4A5A-96A6-EF1579A569B9-
+
+CCompileC build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/Objects-normal/armv7/Piece.o /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/Piece.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s385790854.432218
+e385790855.150048
+r1
+xCompileC
+xbuild/puyopuyo.build/Debug-iphoneos/puyopuyo.build/Objects-normal/armv7/Piece.o
+x/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/Piece.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/Piece.cpp79ce6e86b3feb641^86762687b3feb641^---0#0#0#-19%DVTDocumentLocation2@70"file://localhost/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/Piece.cpp0000000000000000^3074"CompileC build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/Objects-normal/armv7/Piece.o Piece.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/puyopuyo-generated-files.hmap -I/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/puyopuyo-own-target-headers.hmap -I/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/puyopuyo-all-target-headers.hmap -iquote /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/puyopuyo-project-headers.hmap -I/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/DerivedSources/armv7 -I/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/DerivedSources -F/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos -MMD -MT dependencies -MF /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/Objects-normal/armv7/Piece.d --serialize-diagnostics /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/Objects-normal/armv7/Piece.dia -c /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/Piece.cpp -o /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/Objects-normal/armv7/Piece.o36"418D3D9C-88C2-434B-B012-9167E6BE8D2E-
+
+CCompileC build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/Objects-normal/armv7/PiecesManager.o /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/PiecesManager.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s385790855.029681
+e385790855.554664
+r1
+xCompileC
+xbuild/puyopuyo.build/Debug-iphoneos/puyopuyo.build/Objects-normal/armv7/PiecesManager.o
+x/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/PiecesManager.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection70"Compile /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/PiecesManager.cpp6ac10787b3feb641^93ff8d87b3feb641^---0#0#0#-19%DVTDocumentLocation2@78"file://localhost/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/PiecesManager.cpp0000000000000000^3122"CompileC build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/Objects-normal/armv7/PiecesManager.o PiecesManager.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/puyopuyo-generated-files.hmap -I/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/puyopuyo-own-target-headers.hmap -I/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/puyopuyo-all-target-headers.hmap -iquote /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/puyopuyo-project-headers.hmap -I/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/DerivedSources/armv7 -I/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/DerivedSources -F/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos -MMD -MT dependencies -MF /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/Objects-normal/armv7/PiecesManager.d --serialize-diagnostics /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/Objects-normal/armv7/PiecesManager.dia -c /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/PiecesManager.cpp -o /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/Objects-normal/armv7/PiecesManager.o36"FB3A0807-F423-47D8-9FAC-E889B1BC01D1-
+
+CCompileC build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/Objects-normal/armv7/User.o /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/User.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s385790854.267541
+e385790855.028374
+r1
+xCompileC
+xbuild/puyopuyo.build/Debug-iphoneos/puyopuyo.build/Objects-normal/armv7/User.o
+x/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/User.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compile /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/User.cpp65a64486b3feb641^0c5b0787b3feb641^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/User.cpp0000000000000000^3068"CompileC build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/Objects-normal/armv7/User.o User.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/puyopuyo-generated-files.hmap -I/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/puyopuyo-own-target-headers.hmap -I/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/puyopuyo-all-target-headers.hmap -iquote /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/puyopuyo-project-headers.hmap -I/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/DerivedSources/armv7 -I/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/DerivedSources -F/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos -MMD -MT dependencies -MF /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/Objects-normal/armv7/User.d --serialize-diagnostics /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/Objects-normal/armv7/User.dia -c /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/User.cpp -o /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/Objects-normal/armv7/User.o36"E74B4E96-B252-419B-99CB-E9F1F2766631-
+
+CCompileC build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/Objects-normal/armv7/main.o /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/main.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s385790853.017484
+e385790854.265695
+r1
+xCompileC
+xbuild/puyopuyo.build/Debug-iphoneos/puyopuyo.build/Objects-normal/armv7/main.o
+x/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/main.cpp
+xnormal
+xarmv7
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+o/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/main.cpp:11:12: warning: unused variable 'x' [-Wunused-variable]
+ostatic int x = 0;
+o           ^
+o/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/main.cpp:12:12: warning: unused variable 'y' [-Wunused-variable]
+ostatic int y = 0;
+o           ^
+o/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/main.cpp:13:12: warning: unused variable 'offset_x' [-Wunused-variable]
+ostatic int offset_x = pixel_mov;
+o           ^
+o/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/main.cpp:14:12: warning: unused variable 'offset_y' [-Wunused-variable]
+ostatic int offset_y = pixel_mov;
+o           ^
+o4 warnings generated.
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection61"Compile /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/main.cpp8ba90485b3feb641^be164486b3feb641^-630"/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/main.cpp:11:12: warning: unused variable 'x' [-Wunused-variable]static int x = 0;           ^/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/main.cpp:12:12: warning: unused variable 'y' [-Wunused-variable]static int y = 0;           ^/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/main.cpp:13:12: warning: unused variable 'offset_x' [-Wunused-variable]static int offset_x = pixel_mov;           ^/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/main.cpp:14:12: warning: unused variable 'offset_y' [-Wunused-variable]static int offset_y = pixel_mov;           ^4 warnings generated.4(36%IDEClangDiagnosticActivityLogMessage2@19"Unused variable 'x'-385790854#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic23%DVTTextDocumentLocation3@69"file://localhost/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/main.cpp0000000000000000^10#11#10#11#153#0#19"Unused Entity Issue--2@19"Unused variable 'y'-385790854#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@69"file://localhost/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/main.cpp0000000000000000^11#11#11#11#171#0#19"Unused Entity Issue--2@26"Unused variable 'offset_x'-385790854#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@69"file://localhost/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/main.cpp0000000000000000^12#11#12#11#189#0#19"Unused Entity Issue--2@26"Unused variable 'offset_y'-385790854#18446744073709551615#0#-1#27"com.apple.dt.IDE.diagnostic3@69"file://localhost/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/main.cpp0000000000000000^13#11#13#11#222#0#19"Unused Entity Issue--0#0#0#-19%DVTDocumentLocation4@69"file://localhost/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/main.cpp0000000000000000^3068"CompileC build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/Objects-normal/armv7/main.o main.cpp normal armv7 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch armv7 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -miphoneos-version-min=6.0 -iquote /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/puyopuyo-generated-files.hmap -I/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/puyopuyo-own-target-headers.hmap -I/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/puyopuyo-all-target-headers.hmap -iquote /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/puyopuyo-project-headers.hmap -I/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/DerivedSources/armv7 -I/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/DerivedSources -F/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos -MMD -MT dependencies -MF /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/Objects-normal/armv7/main.d --serialize-diagnostics /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/Objects-normal/armv7/main.dia -c /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/main.cpp -o /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/Objects-normal/armv7/main.o36"8BD906DC-CBCC-49DA-BA37-7035D9C924BC-
+
+CCopyPNGFile /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app/Default.png Default.png
+s385790852.656140
+e385790852.997189
+r1
+xCopyPNGFile
+x/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app/Default.png
+xDefault.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection69"CopyPNGFile build/Debug-iphoneos/puyopuyo.app/Default.png Default.png10cbaa84b3feb641^ae64ff84b3feb641^---0#0#0#-19%DVTDocumentLocation2@72"file://localhost/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/Default.png0000000000000000^572"CopyPNGFile build/Debug-iphoneos/puyopuyo.app/Default.png Default.png    cd /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/Default.png /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app/Default.png36"83308A66-0F29-4EBC-A5BD-D14F3E30818E-
+
+CCopyPNGFile /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app/Icon.png Icon.png
+s385790852.655349
+e385790852.951808
+r1
+xCopyPNGFile
+x/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app/Icon.png
+xIcon.png
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection63"CopyPNGFile build/Debug-iphoneos/puyopuyo.app/Icon.png Icon.png64e9a784b3feb641^8fa9f384b3feb641^---0#0#0#-19%DVTDocumentLocation2@69"file://localhost/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/Icon.png0000000000000000^560"CopyPNGFile build/Debug-iphoneos/puyopuyo.app/Icon.png Icon.png    cd /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/copypng -compress "" /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/Icon.png /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app/Icon.png36"F50A388A-B779-425D-BCA3-13DEF8504B94-
+
+CCpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist build/Debug-iphoneos/puyopuyo.app/ResourceRules.plist
+s385790852.571548
+e385790852.630858
+r1
+xCpResource
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist
+xbuild/Debug-iphoneos/puyopuyo.app/ResourceRules.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection58"Copy build/Debug-iphoneos/puyopuyo.app/ResourceRules.plist9b759284b3feb641^48febc84b3feb641^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app/ResourceRules.plist000000000080d041^740"CpResource /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist build/Debug-iphoneos/puyopuyo.app/ResourceRules.plist    cd /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/ResourceRules.plist /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app36"486EF9AD-83BD-4165-81ED-F61497EC3167-
+
+CCpResource SDL/include/SDL_config.h.cmake build/Debug-iphoneos/puyopuyo.app/SDL_config.h.cmake
+s385790852.998115
+e385790853.008807
+r1
+xCpResource
+xSDL/include/SDL_config.h.cmake
+xbuild/Debug-iphoneos/puyopuyo.app/SDL_config.h.cmake
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection57"Copy build/Debug-iphoneos/puyopuyo.app/SDL_config.h.cmaked89cff84b3feb641^1f480285b3feb641^---0#0#0#-19%DVTDocumentLocation2@113"file://localhost/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app/SDL_config.h.cmake000000000080d041^602"CpResource SDL/include/SDL_config.h.cmake build/Debug-iphoneos/puyopuyo.app/SDL_config.h.cmake    cd /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL/include/SDL_config.h.cmake /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app36"D26719E2-D969-4E9E-A437-1D1A1C43CACA-
+
+CCpResource SDL/include/SDL_config.h.in build/Debug-iphoneos/puyopuyo.app/SDL_config.h.in
+s385790852.998312
+e385790853.008614
+r1
+xCpResource
+xSDL/include/SDL_config.h.in
+xbuild/Debug-iphoneos/puyopuyo.app/SDL_config.h.in
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection54"Copy build/Debug-iphoneos/puyopuyo.app/SDL_config.h.in40a4ff84b3feb641^c4410285b3feb641^---0#0#0#-19%DVTDocumentLocation2@110"file://localhost/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app/SDL_config.h.in000000000080d041^593"CpResource SDL/include/SDL_config.h.in build/Debug-iphoneos/puyopuyo.app/SDL_config.h.in    cd /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL/include/SDL_config.h.in /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app36"E393686F-19EF-49A6-B842-AF94CCB029C4-
+
+CCpResource SDL/include/doxyfile build/Debug-iphoneos/puyopuyo.app/doxyfile
+s385790852.953112
+e385790852.996817
+r1
+xCpResource
+xSDL/include/doxyfile
+xbuild/Debug-iphoneos/puyopuyo.app/doxyfile
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection47"Copy build/Debug-iphoneos/puyopuyo.app/doxyfiled157f484b3feb641^e738ff84b3feb641^---0#0#0#-19%DVTDocumentLocation2@103"file://localhost/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app/doxyfile000000000080d041^572"CpResource SDL/include/doxyfile build/Debug-iphoneos/puyopuyo.app/doxyfile    cd /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL/include/doxyfile /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app36"884B1B53-CE04-4C6D-8F6A-0C5CC855CF51-
+
+CGenerateDSYMFile /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app.dSYM /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app/puyopuyo
+s385790856.789718
+e385790857.029622
+r1
+xGenerateDSYMFile
+x/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app.dSYM
+x/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app/puyopuyo
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Generate /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app.dSYM2c45ca88b3feb641^40a40789b3feb641^---0#0#0#-19%DVTDocumentLocation2@99"file://localhost/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app.dSYM000000000080d041^614"GenerateDSYMFile build/Debug-iphoneos/puyopuyo.app.dSYM build/Debug-iphoneos/puyopuyo.app/puyopuyo    cd /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app/puyopuyo -o /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app.dSYM36"B83F91C3-8FDC-41E8-B43B-EDAD0F548A67-
+
+CLd /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app/puyopuyo normal armv7
+s385790855.561624
+e385790856.782829
+r1
+xLd
+x/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app/puyopuyo
+xnormal
+xarmv7
+old: warning: ignoring file /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL/lib/libSDLSimulator.a, file was built for archive which is not the architecture being linked (armv7): /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL/lib/libSDLSimulator.a
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection92"Link /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app/puyopuyo75e98f87b3feb641^8578c888b3feb641^-249"ld: warning: ignoring file /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL/lib/libSDLSimulator.a, file was built for archive which is not the architecture being linked (armv7): /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL/lib/libSDLSimulator.a1(21%IDEActivityLogMessage2@235"Ignoring file /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL/lib/libSDLSimulator.a, file was built for archive which is not the architecture being linked (armv7): /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL/lib/libSDLSimulator.a-385790856#0#249#-1#-23%DVTTextDocumentLocation3@-0000000000000000^18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#18446744073709551615#0#27"Apple Mach-O Linker Warning--0#0#0#--1205"Ld build/Debug-iphoneos/puyopuyo.app/puyopuyo normal armv7    cd /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo    setenv IPHONEOS_DEPLOYMENT_TARGET 6.0    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch armv7 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk -L/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos -L/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/SDL/lib -F/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos -filelist /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/Objects-normal/armv7/puyopuyo.LinkFileList -dead_strip -miphoneos-version-min=6.0 -framework Foundation -framework UIKit -framework OpenGLES -framework QuartzCore -framework CoreAudio -framework AudioToolbox -framework CoreGraphics -lSDL -lSDLSimulator -o /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app/puyopuyo36"F5A96D51-A103-437C-B15F-886A62C5E8DB-
+
+CProcessInfoPlistFile /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app/Info.plist Info.plist
+s385790852.572155
+e385790852.642695
+r1
+xProcessInfoPlistFile
+x/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app/Info.plist
+xInfo.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plist508e9284b3feb641^ef02bd84b3feb641^---0#0#0#-19%DVTDocumentLocation2@71"file://localhost/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/Info.plist0000000000000000^722"ProcessInfoPlistFile build/Debug-iphoneos/puyopuyo.app/Info.plist Info.plist    cd /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Info.plist -genpkginfo /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app/ResourceRules.plist -o /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app/Info.plist36"0211D4FE-F2D5-4E39-9CD8-56AAD4E83211-
+
+CProcessProductPackaging "/Users/anaya/Library/MobileDevice/Provisioning Profiles/9D288E07-B37C-4137-A5C8-B79C5FC38733.mobileprovision" /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app/embedded.mobileprovision
+s385790857.098132
+e385790857.131784
+r1
+xProcessProductPackaging
+x/Users/anaya/Library/MobileDevice/Provisioning Profiles/9D288E07-B37C-4137-A5C8-B79C5FC38733.mobileprovision
+x/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app/embedded.mobileprovision
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection193"ProcessProductPackaging "/Users/anaya/Library/MobileDevice/Provisioning Profiles/9D288E07-B37C-4137-A5C8-B79C5FC38733.mobileprovision" build/Debug-iphoneos/puyopuyo.app/embedded.mobileprovision809f1989b3feb641^c7122289b3feb641^---0#0#0#-19%DVTDocumentLocation2@119"file://localhost/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app/embedded.mobileprovision0000000000000000^688"ProcessProductPackaging "/Users/anaya/Library/MobileDevice/Provisioning Profiles/9D288E07-B37C-4137-A5C8-B79C5FC38733.mobileprovision" build/Debug-iphoneos/puyopuyo.app/embedded.mobileprovision    cd /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility "/Users/anaya/Library/MobileDevice/Provisioning Profiles/9D288E07-B37C-4137-A5C8-B79C5FC38733.mobileprovision" -o /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app/embedded.mobileprovision36"0CD68996-0247-4772-9446-FDDF974ADD1A-
+
+CProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/puyopuyo.xcent
+s385790857.187946
+e385790857.191852
+r1
+xProcessProductPackaging
+x/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist
+x/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/puyopuyo.xcent
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection210"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/puyopuyo.xcent37393089b3feb641^c11c3189b3feb641^---0#0#0#-19%DVTDocumentLocation2@126"file://localhost/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/puyopuyo.xcent000000000080d041^748"ProcessProductPackaging /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/puyopuyo.xcent    cd /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-productPackagingUtility /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/Entitlements.plist -entitlements -format xml -o /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/puyopuyo.build/Debug-iphoneos/puyopuyo.build/puyopuyo.xcent36"B93553BC-C462-4D03-BB89-DFEF68025371-
+
+CTouch /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app
+s385790857.139485
+e385790857.180332
+r1
+xTouch
+x/Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Touch /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.appa3cb2389b3feb641^e52a2e89b3feb641^---0#0#0#--381"Touch build/Debug-iphoneos/puyopuyo.app    cd /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/anaya/Develop/PuyoPuyoIphone/puyopuyo/build/Debug-iphoneos/puyopuyo.app36"84452D79-FC45-4292-B713-69B45066C0CF-
+
